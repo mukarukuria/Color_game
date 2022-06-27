@@ -2,13 +2,15 @@ body {
   font-family: Arial;
   text-align: center;
   margin: 10px;
+  
 }
-.mainbody {
-  /* display: flex; */
-}
+/* .mainbody {
+  display: flex;
+} */
 @media (min-width: 768px) {
   body {
     font-size: 20px;
+    background-color: #041C32;
   }
 }
 
@@ -18,13 +20,15 @@ h1 {
 /* header{
       w
   } */
-
+/* 
 main {
-}
+} */
 
 .rgb {
   font-size: 1.4rem;
   text-transform: uppercase;
+  color: aliceblue;
+
 }
 
 .colors {
@@ -51,16 +55,19 @@ main {
   width: 60vw;
   margin: 20px auto;
   font-size: 1rem;
+  color: aliceblue;
+  
 }
 
 .diff {
-  margin: 20px auto;
+  padding: 20px;
+  background-color: #064663; 
+  text-align: left;
 }
 
-.diff__btn {
+.diff__btn , .reset_btn{
   font-size: 14px;
   border: solid 1px;
-  border-radius: 50%;
   padding: 10px;
   cursor: pointer;
 }
